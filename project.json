@@ -1,0 +1,10 @@
+{
+    "name": "But_test",
+    "version": "1.0.0",
+    "manifest_version": 1,
+    "project_type": "application",
+    "executable_type": "scratch",
+    "executable": "But_test.xml",
+    "author": "PorkFu",
+    "minimum_firmware_version": 42
+}
