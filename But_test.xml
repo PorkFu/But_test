@@ -2,10 +2,10 @@
   <block type="movement_forward" id="340" x="-164" y="-75">
     <next>
       <block type="controls_whileUntil" id="301" inline="false">
-        <field name="MODE">WHILE</field>
+        <field name="MODE">UNTIL</field>
         <value name="NUMBER">
-          <block type="sensor_button" id="330">
-            <field name="OBJECT">UP</field>
+          <block type="math_number" id="384">
+            <field name="NUM">5000</field>
           </block>
         </value>
         <statement name="DO">
