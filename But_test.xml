@@ -17,6 +17,11 @@
         <statement name="DO">
           <block type="led_select" id="229" inline="true">
             <field name="ACTION">ON</field>
+            <value name="LED">
+              <block type="math_number" id="236">
+                <field name="NUM">5000</field>
+              </block>
+            </value>
           </block>
         </statement>
         <next>
